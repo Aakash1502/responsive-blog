@@ -1,0 +1,21 @@
+.content-contact{
+    color: white;
+    padding-top: 50px;
+    position: relative;
+    margin-left: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: bisque; */
+}
+.contact-form{
+    height: 70vh;
+}
+.form-box{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.form-box input, textarea{
+    width: 44vw;
+}
+.form-box input{
+    height: 2vw;
+}

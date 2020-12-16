@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../img/background1.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-color: #cccccc;
+}
+
+.navigation{
+    font-family: var(--font2);
+    height: 40px;
+    margin-top: 20px;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    font-size: 35px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav-left span{
+    padding-bottom: 6px;
+    color: white;
+}
+
+.nav-left ul{
+    display: flex;
+    list-style: none;
+    margin: 0 77px;
+    align-items: center;
+    font-size: 18px;
+    
+}
+.nav-left ul li{
+    margin: 0 24px;
+    font-family: var(--font1);
+}
+
+.nav-left ul li:hover{
+    font-weight: bolder;
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-right{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+.content{
+    height: 100%;
+    display: flex;
+    color: white;
+    margin-top: 32px;
+    position: relative;
+    padding: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: bisque; */
+}
+
+.content-left-article {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 13px;
+}
+
+.content-left-article p{
+    font-family: var(--font1);
+    font-size: 17px;
+    color: blanchedalmond;
+}
+.content-left-article h1{
+    font-family: var(--font1);
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more-article-content a{
+    text-decoration: none ;
+    padding: 20px 15px;
+    color: white;
+    font-family: var(--font3);
+    
+}
+.more-article-content a:hover{
+    font-weight: bolder;
+    
+}
+.more-articles h2{
+    color: whitesmoke;
+}
+
+.more-article{
+    
+    display: flex;
+    padding: 20px;
+    margin: -1px;
+    margin-left: -15px;
+}
+
+
+
+
+
+.more-article img{
+    height: 150px;
+    display: flex;
+    
+    
+}
+.fotter{
+    
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: -1px;
+    /* background-color: dimgray; */
+}
+.fotter p{
+    color: white;
+}
+
+.fotter a{
+    color: white;
+}
